@@ -1,0 +1,15 @@
+%YAML:1.0
+model_type: PINHOLE
+camera_name: zed2_left
+image_width: 672
+image_height: 376
+distortion_parameters:
+   k1: -0.0442856
+   k2:  0.0133574
+   p1:  0.0
+   p2:  0.0
+projection_parameters:
+   fx: 264.9425
+   fy: 264.7900
+   cx: 334.3975
+   cy: 183.1620

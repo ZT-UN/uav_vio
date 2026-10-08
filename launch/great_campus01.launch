@@ -1,0 +1,8 @@
+<launch>
+    <node name="semantic_vio_node"
+          pkg="semantic_vio"
+          type="semantic_vio_node"
+          args="$(find semantic_vio)/config/great/great_campus01.yaml"
+          output="screen"
+          required="true"/>
+</launch>

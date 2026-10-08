@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+
+# 数据与模型
+data/
+datasets/
+checkpoints/
+weights/
+*.bag
+*.pcd
+
+# 编译产物
+build/
+devel/
+*.o
+*.so
+
+# 编辑器/系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 日志
+*.log
+logs/

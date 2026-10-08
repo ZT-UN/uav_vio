@@ -1,0 +1,5 @@
+<launch>
+    <node name="semantic_vio_node" pkg="semantic_vio" type="semantic_vio_node"
+          args="$(find semantic_vio)/config/extraction_only.yaml"
+          output="screen"/>
+</launch>

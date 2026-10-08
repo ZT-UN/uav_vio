@@ -1,0 +1,19 @@
+%YAML:1.0
+---
+model_type: PINHOLE
+camera_name: great_cam1
+
+image_width: 1024
+image_height: 768
+
+distortion_parameters:
+   k1: -0.08703616782297424
+   k2: 0.35603847610826034
+   p1: 0.0008297174212035335
+   p2: 0.0012167432631498595
+
+projection_parameters:
+   fx: 1165.5980462505995
+   fy: 1167.848268520306
+   cx: 519.417011170819
+   cy: 401.8162412742674
